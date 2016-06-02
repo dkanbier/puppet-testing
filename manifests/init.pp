@@ -1,4 +1,4 @@
-class testing (
+class puppet-testing (
   $package_name = false
 ){
   if is_string($package_name) {
