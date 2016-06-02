@@ -5,6 +5,7 @@ script: "rake spec"
 branches:
   only:
     - master
+script: bundle exec rake test
 env:
   - PUPPET_VERSION=4.4.0
 notifications:
