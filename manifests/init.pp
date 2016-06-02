@@ -1,4 +1,4 @@
-class puppet-testing (
+class dkanbier (
   $package_name = false
 ){
   if is_string($package_name) {
