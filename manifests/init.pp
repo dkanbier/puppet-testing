@@ -12,7 +12,7 @@ class dkanbier (
         $real_package_name = 'apache2'
       }
       default: {
-        fail("unsupported osfamily: $::osfamily")
+        fail("unsupported osfamily: ${::osfamily}")
       }
     }
   }
